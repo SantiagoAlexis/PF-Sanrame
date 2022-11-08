@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+body{
+    font-family: 'EB Garamond' , sans-serif; 
+    background-color: rgb(45, 45, 45);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+main{
+    min-height: 100vh;
+}
+
+.logoGenshin{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+h1{
+    font-size: 50px;
+    color: rgb(191, 243, 252);
+    text-align: center;
+}
+
+.pageSubtitle{
+    font-size: 35px;
+    color: rgb(191, 243, 252);
+    text-align: center;
+}
+
+.nav{
+    list-style-type: none;
+    margin: 7px;
+    padding: 5px;
+    overflow: hidden;
+    color: cyan;
+    background-color: rgb(15, 15, 15);
+}
+
+.nav a:hover{
+    color: rgb(132, 0, 255);
+}
+
+.active{
+    color: blue;
+}
+
+.navMainCategories{
+    width: 200px;
+    display: block;
+    float: left;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border-right: 1px solid rgb(85, 85, 85)
+}
+
+a{
+    text-decoration: none;
+    color: aqua;
+}
+
+
+.mainArticles{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 5%;
+    background-color: rgb(75, 75, 75);
+}
+
+.mainArticleImg{
+    width: 90%;
+    margin: 2% 5% 0 5%;
+}
+
+.mainArticleTitle{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(191, 243, 252);
+    padding: 2% 5% 0% 5%;
+}
+
+.mainArticleDescription{
+    font-size: 20px;
+    padding: 0 5% 5% 5%;
+    text-align: center;
+}
+
+.patchDescription{
+    color: rgb(191, 243, 252);
+}
+
+.nahidaDescription{
+    color: rgb(127, 255, 195);
+}
+
+.nilouDescription{
+    color: aqua;
+}
+
+iframe{
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    padding: 2% 5% 5% 5%;
+}
+
+/* quise centrar las imagenes en las cartas de los personajes y poner las cartas una al lado de la otra de forma horizontal (el display: inline me rompia todo) y no pude de ninguna forma que no sea usando flex o grid por lo que las deje asi... perdón*/
+
+.characterCard{
+    display: grid;
+    width: 200px;
+    margin: 10px;
+    border-radius: 15px;
+    border: 3px solid rgb(83, 56, 109);
+    background-color: rgb(43, 43, 43);
+}
+
+.characterCard img{
+    width: 150px;
+    margin: 7px;
+    padding: 0px 10px 10px 10px;    
+}
+
+.characterCard h3{
+    text-align: center;
+    font-size: 17px;
+    color: rgb(163, 218, 228);
+}
+
+.characterCard p{
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    color: rgb(112, 112, 255);
+}
+
+.weaponList{
+    max-width: 95vw;
+    text-align: center;
+}
+
+.weaponList h3{
+    font-size: 25px;
+    color: rgb(230, 155, 59);
+    padding: 10px;
+}
+
+.weaponList ul{
+    font-size: 20px;
+    color: rgb(200, 200, 200);
+}
+
+.patch{
+    margin-bottom: 150px;
+}
+
+.patch h3{
+    margin-left: 20px;
+    font-size: 25px;
+    color: rgb(191, 243, 252);
+}
+
+.patch p{
+    width: 95vw;
+    font-size: 20px;
+    color: rgb(220, 220, 220);
+    text-overflow: clip;
+}
+
+.patchBoldText{
+    font-weight: bold;
+}
+
+footer{
+    height: 100%;
+    margin: 50px 0px 0px 25px;
+
+}
+
+.footerTitle{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+.footerText{
+    font-size: 20px;
+    text-align: center;
+}
+
+footer img{
+    width: 100px;
+    padding: 7px 7px 7px 0px;
+}
+
+.footerLogos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contactForm{
+    width: 400px;
+    padding: 15px;
+    margin: auto;
+    border-radius: 15px;
+    border: 2px solid black;
+    background-color: rgb(118, 136, 153);
+}
+
+.contactForm label{
+    width: 150px;
+    display: inline-block;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.sendButton{
+    width: 100%;
+    padding: 10px 20px 10px 20px;
+    margin: 10px 0px 0px 0px;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(200, 200, 200);
+}
+
+.sendButton:hover{
+    cursor: pointer;
+}
