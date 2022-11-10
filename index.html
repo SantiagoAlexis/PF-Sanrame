@@ -4,97 +4,137 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/bootstrap.min.css">
     <link rel="stylesheet" href="./styles/styles.css">
     <title>Genshin Impact</title>
 </head>
 <body>
-    <header>
-        <div>
-        <a href="./index.html"><img class="logoGenshin" src="./assets/images/2465517595f5ea9f225d52ed73a4d0db.png" alt="Logo de Genshin Impact"></a>
-        </div>
-        <nav>
-            <ul class="nav">
-                <li class="navMainCategories"><a href="./index.html">Home</a></li>
-                <li class="navMainCategories"><a href="./pages/characters.html">Characters</a></li>
-                <li class="navMainCategories"><a href="./pages/weapons.html">Weapons</a></li>
-                <li class="navMainCategories"><a href="./pages/patch-notes.html">Patch Notes</a></li>
-                <li class="navMainCategories"><a href="./pages/contact.html">Contact us</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <h1>
-            Welcome to Genshin Impact
-            </h1>
-        <h2 class="pageSubtitle">
-            News!
-            </h2>
-
-            <article class="mainArticles">
-                <div>
-                    <h2 class="mainArticleTitle">
-                        NILOU NOW AVAILABLE!
-                    </h2>
-                    <img class="mainArticleImg" src="http://dlprivateserver.com/wp-content/uploads/2022/09/1663347995_525_Genshin-Impact-31-Notas-y-vista-previa-del-parche-de.jpeg" alt="Nilou card">
-                    <p class="mainArticleDescription nilouDescription">
-                        Nilou, The star of the Zubayr Theater is now available!
-                    </p>
-                </div>
-            </article>
-            <article class="mainArticles">
-                <div>
-                    <h2 class="mainArticleTitle">
-                        New upcoming character: Nahida
-                    </h2>
-                    <img class="mainArticleImg" src="https://www.pcgamesn.com/wp-content/sites/pcgamesn/2022/09/Genshin-Impact-Nahida-Official.jpg" alt="Nahida Card">
-                </div>
-                <p class="mainArticleDescription nahidaDescription">
-                    Nahida is an upcoming playable Dendro character.
-                    She is the vessel of Lesser Lord Kusanali, the current Dendro Archon.
-                </p>
-            </article>
-            <article class="mainArticles">
-                <div>
-                    <h2 class="mainArticleTitle">
-                        Story Teaser: Lost Legacies in the Sand
-                    </h2>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/EEGh9J0TH2E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-            </article>
-            <article class="mainArticles">
-                <div>
-                    <h2 class="mainArticleTitle">
-                        Patch Notes
-                    </h2>
-                    <img class="mainArticleImg" src="https://webstatic.hoyoverse.com/upload/contentweb/2022/09/27/a999f1db7611ac515bd35a3d8e35726a_7076330579310338375.png" alt="">
-                    <p class="mainArticleDescription patchDescription">
-                        Dear Travelers,
-                        Below are the details of the Version 3.1 update "King Deshret and the Three Magi."
-
-                        New Areas: Hypostyle Desert, Land of Lower Setekh, and Land of Upper Setekh
-                        New Characters: Cyno, Nilou, and Candace
-                        New Domains: Garden of Endless Pilars... <a href="./pages/patch-notes.html">Read More</a>
-                    </p>
-                </div>
-            </article>
-    </main>
-    
-    <footer>
-        <div>
-            <h3 class="footerTitle">
-                This is a fan website of Genshin Impact made with educational and research purposes.
-            </h3>
-            <p class="footerText">
-                Feel free to follow Genshin Impact on their social media!
-            </p>
-            <div class="footerLogos">
-            <a href="https://www.instagram.com/genshinimpact/?hl=es" target="_blank"><img src="./assets/images/Instagram-Icon.png" alt="Instagram"></a>
-            <a href="https://twitter.com/GenshinImpact" target="_blank"><img src="./assets/images/60414c58e954d7236837248225e0216f_new-twitter-logo-vector-eps-twitter-logo-clipart-png_518-518.png" alt="Twitter"></a>
-            <a href="https://discord.com/invite/genshinimpact" target="_blank"><img src="./assets/images/discord-logo-4-1.png" alt="Discord"></a>
-            <a href="https://www.reddit.com/r/Genshin_Impact/" target="_blank"><img src="./assets/images/reddit-logo.png" alt="Reddit"></a>
+    <div class="container">
+        <header>
+            <div>
+            <a href="./index.html"><img class="logoGenshin" src="./assets/images/2465517595f5ea9f225d52ed73a4d0db.png" alt="Logo de Genshin Impact"></a>
             </div>
-        </div>
-    </footer>
+            <!-- <nav>
+                <ul class="nav row justify-content-center">
+                    <li class="navMainCategories"><a href="./index.html">Home</a></li>
+                    <li class="navMainCategories"><a href="./pages/characters.html">Characters</a></li>
+                    <li class="navMainCategories"><a href="./pages/weapons.html">Weapons</a></li>
+                    <li class="navMainCategories"><a href="./pages/patch-notes.html">Patch Notes</a></li>
+                    <li class="navMainCategories"><a href="./pages/contact.html">Contact us</a></li>
+                </ul>
+            </nav> -->
+            <div>
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container">
+                      <a class="navbar-brand text-white fs-4" href="./index.html">Home</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active text-white fs-5" aria-current="page" href="./pages/characters.html">Characters</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active text-white fs-5" href="./pages/weapons.html">Weapons</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active text-white fs-5" href="./pages/patch-notes.html">Patch Notes</a>
+                          </li>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active text-white fs-5" href="./pages/contact.html">Contact</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2 fs-5" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-light fs-5" type="submit">Search</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </header>
+    </div>
+
+
+    <div class="container">
+        <main>
+            <h1 class="mainTitleGenshin">
+                Welcome to Genshin Impact
+                </h1>
+                <div class="row">
+                    <article class="mainArticles col">
+                        <div>
+                            <h2 class="mainArticleTitle">
+                                NILOU NOW AVAILABLE!
+                            </h2>
+                            <img class="mainArticleImg" src="http://dlprivateserver.com/wp-content/uploads/2022/09/1663347995_525_Genshin-Impact-31-Notas-y-vista-previa-del-parche-de.jpeg" alt="Nilou card">
+                            <p class="mainArticleDescription nilouDescription">
+                                Nilou, The star of the Zubayr Theater is now available!
+                            </p>
+                        </div>
+                    </article>
+                    <article class="mainArticles col">
+                        <div>
+                            <h2 class="mainArticleTitle">
+                                New upcoming character: Nahida
+                            </h2>
+                            <img class="mainArticleImg" src="https://www.pcgamesn.com/wp-content/sites/pcgamesn/2022/09/Genshin-Impact-Nahida-Official.jpg" alt="Nahida Card">
+                        </div>
+                        <p class="mainArticleDescription nahidaDescription">
+                            Nahida is an upcoming playable Dendro character.
+                            She is the vessel of Lesser Lord Kusanali, the current Dendro Archon.
+                        </p>
+                    </div>
+                </article>
+                <article class="mainArticles row">
+                    <div class="col">
+                        <h2 class="mainArticleTitle">
+                            Story Teaser: Lost Legacies in the Sand
+                        </h2>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/EEGh9J0TH2E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </article>
+                <article class="mainArticles row">
+                    <div class="col">
+                        <h2 class="mainArticleTitle">
+                            Patch Notes
+                        </h2>
+                        <img class="mainArticleImg" src="https://webstatic.hoyoverse.com/upload/contentweb/2022/09/27/a999f1db7611ac515bd35a3d8e35726a_7076330579310338375.png" alt="">
+                        <p class="mainArticleDescription patchDescription">
+                            Dear Travelers,
+                            Below are the details of the Version 3.1 update "King Deshret and the Three Magi."
+
+                            New Areas: Hypostyle Desert, Land of Lower Setekh, and Land of Upper Setekh
+                            New Characters: Cyno, Nilou, and Candace
+                            New Domains: Garden of Endless Pilars... <a href="./pages/patch-notes.html">Read More</a>
+                        </p>
+                    </div>
+                </article>
+        </main>
+    </div>
+
+    <div class="container">
+        <footer>
+            <div>
+                <h3 class="footerTitle">
+                    This is a fan website of Genshin Impact made with educational and research purposes.
+                </h3>
+                <p class="footerText">
+                    Feel free to follow Genshin Impact on their social media!
+                </p>
+                <div class="footerLogos">
+                <a href="https://www.instagram.com/genshinimpact/?hl=es" target="_blank"><img src="./assets/images/Instagram-Icon.png" alt="Instagram"></a>
+                <a href="https://twitter.com/GenshinImpact" target="_blank"><img src="./assets/images/60414c58e954d7236837248225e0216f_new-twitter-logo-vector-eps-twitter-logo-clipart-png_518-518.png" alt="Twitter"></a>
+                <a href="https://discord.com/invite/genshinimpact" target="_blank"><img src="./assets/images/discord-logo-4-1.png" alt="Discord"></a>
+                <a href="https://www.reddit.com/r/Genshin_Impact/" target="_blank"><img src="./assets/images/reddit-logo.png" alt="Reddit"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
