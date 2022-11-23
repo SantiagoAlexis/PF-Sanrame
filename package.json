@@ -1,0 +1,31 @@
+{
+  "name": "proyecto-genshin-codex-con-sass",
+  "version": "1.0.0",
+  "description": "Mi proyecto de Genshin Codex con SASS.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss styles/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SantiagoAlexis/genshin-impact-codex.git"
+  },
+  "keywords": [
+    "GenshinImpact",
+    "SASS",
+    "CSS",
+    "Teyvat"
+  ],
+  "author": "Santiago Alexis Sanrame",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SantiagoAlexis/genshin-impact-codex/issues"
+  },
+  "homepage": "https://github.com/SantiagoAlexis/genshin-impact-codex#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}

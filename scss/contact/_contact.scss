@@ -1,0 +1,28 @@
+.contactForm{
+    width: 400px;
+    padding: 15px;
+    margin: auto;
+    border-radius: 15px;
+    border: 2px solid black;
+    background-color: rgb(118, 136, 153);
+  }
+  
+  .contactForm label{
+    width: 150px;
+    display: inline-block;
+    font-size: 19px;
+    font-weight: bold;
+  }
+  
+  .sendButton{
+    width: 100%;
+    padding: 10px 20px 10px 20px;
+    margin: 10px 0px 0px 0px;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(200, 200, 200);
+  }
+  
+  .sendButton:hover{
+    cursor: pointer;
+  }

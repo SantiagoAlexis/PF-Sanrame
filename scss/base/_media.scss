@@ -1,0 +1,107 @@
+@media screen and (max-width: 1000px) {
+    .characterPicture{
+        width: 95%;
+    }
+
+    
+    .weaponList ul{
+      grid-template-columns: repeat(3, 1fr);
+
+        img{
+          height: 270px;
+        }
+        .catalystSplash{
+          height: 150px;
+          width: 160px;
+        }
+    }
+
+
+    footer img{
+      width: 95px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .characterPicture {
+        width: 90%;
+    }
+
+
+    .weaponList ul{
+      grid-template-columns: repeat(2, 1fr);
+
+        img{
+          height: 250px;
+        }
+
+        .catalystSplash{
+          height: 130px;
+          width: 150px;
+        }
+    }
+
+    .contactForm{
+      width: 350px;
+  
+      label{
+        width: 100px;
+        font-size: 17px;
+      }
+    }
+
+
+    footer img{
+      width: 85px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .characterPicture .characterImg{
+        width: 90%;
+    }
+
+
+    .weaponList ul{
+      grid-template-columns: repeat(2, 1fr);
+  
+        img{
+          height: 250px;
+        }
+
+        .catalystSplash{
+          height: 120px;
+          width: 140px;
+        }
+      }
+
+
+    footer img{
+      width: 70px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+  .weaponList ul{
+    grid-template-columns: 1fr;
+
+      img{
+        height: 220px;
+      }
+
+      .catalystSplash{
+        height: 110px;
+        width: 130px;
+      }
+    }
+  
+  .contactForm{
+    width: 300px;
+
+    label{
+      width: 60px;
+      font-size: 15px;
+    }
+  }
+
+}
