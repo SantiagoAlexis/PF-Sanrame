@@ -1,3 +1,5 @@
+@import "../utilities/variables";
+
 .characterLine{
     border-top: 5px solid black;
     margin-bottom: 40px;
@@ -13,11 +15,11 @@
 }
 
 .characterPicture .characterImg{
-    width: 32%;
+    width: $charactercard-width;
+    height: $charactercard-height;
     position: relative;
-    height: 350px;
     margin-bottom: 20px;
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .75);
+    box-shadow: $charactercard-boxshadow;
     border-radius: 5px;
 }
 
@@ -40,9 +42,9 @@
 }
 
 .characterOverlay h2{
-    color: white;
+    color: $charactercardname-color;
     font-weight: 300;
-    font-size: 30px;
+    font-size: $cardtitle-fontsize;
     position: absolute;
     top: 50%;
     left: 50%;

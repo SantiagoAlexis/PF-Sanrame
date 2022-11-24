@@ -1,11 +1,13 @@
+@import "../utilities/variables";
+
 .patch{
     margin-bottom: 150px;
-    background-color: rgba(0, 0, 0, 0.507);
+    background-color: $black-background;
 }
 
 .patch h3{
     font-size: 25px;
-    color: rgb(0, 255, 255);
+    color: $secondtitle-color;
 }
 
 .patch p{

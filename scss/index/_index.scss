@@ -1,18 +1,20 @@
+@import "../utilities/variables";
+
 .newsContainer{
     padding: 30px;
 }
 
 .cardContent{
-    background-color: rgb(49, 49, 49);
+    background-color: $newscard-color;
     text-align: center;
 }
 
 .cardTextTitle{
-    font-size: 30px;
-    color: rgb(0, 255, 255);
+    font-size: $cardtitle-fontsize;
+    color: $secondtitle-color;
 }
 
 .cardTextDescription{
-    font-size: 20px;
-    color: rgb(230, 230, 230);
+    font-size: $description-fontsize;
+    color: $newscard-description;
 }
