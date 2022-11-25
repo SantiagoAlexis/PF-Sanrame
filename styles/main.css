@@ -216,8 +216,50 @@ a {
     color: white;
     text-overflow: clip; }
 
+.patchOpinion {
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 20px;
+  color: cyan; }
+
 .patchBoldText {
   font-weight: bold; }
+
+.opinionBtn--like {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 25%;
+  color: #050505;
+  background-color: #00e100;
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75); }
+
+.opinionBtn--meh {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 25%;
+  color: #050505;
+  background-color: #afafaf;
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75); }
+
+.opinionBtn--dislike {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 25%;
+  color: #050505;
+  background-color: red;
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75); }
 
 /* CONTACT */
 .contactForm {
