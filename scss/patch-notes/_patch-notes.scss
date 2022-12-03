@@ -2,8 +2,10 @@
 @import "../utilities/mixins";
 
 .patch{
+    padding: 20px;
     margin-bottom: 150px;
     background-color: $black-background;
+    border-radius: 20px;
 
     h3{
         font-size: 25px;
@@ -38,7 +40,5 @@
         font-size: $description-fontsize;
         border-radius: 10px;
         box-shadow: $charactercard-boxshadow;
-    }
-
-    
+    } 
 }
