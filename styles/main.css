@@ -215,8 +215,18 @@ a {
     color: cyan; }
   .patch p {
     font-size: 20px;
+    margin-top: 20px;
     color: white;
     text-overflow: clip; }
+
+.patchBanner {
+  width: 85%;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: solid 2px black; }
 
 .patchOpinion {
   font-size: 40px;
@@ -326,7 +336,9 @@ footer {
       height: 150px;
       width: 160px; }
   footer img {
-    width: 95px; } }
+    width: 95px; }
+  .patchBanner {
+    width: 90%; } }
 
 @media screen and (max-width: 700px) {
   .characterPicture {
@@ -346,7 +358,9 @@ footer {
       width: 100px;
       font-size: 17px; }
   footer img {
-    width: 85px; } }
+    width: 85px; }
+  .patchBanner {
+    width: 100%; } }
 
 @media screen and (max-width: 550px) {
   .characterPicture .characterImg {
